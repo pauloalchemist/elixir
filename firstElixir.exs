@@ -1,0 +1,5 @@
+IO.puts("oi elixir")
+IO.puts(true == :true)
+IO.puts(div 10, 2)
+IO.puts(div(10,2))
+IO.puts(0b1010)
