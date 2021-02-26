@@ -10,7 +10,7 @@ defmodule Nicepay.Account do
   @required_params [:balance, :user_id]
 
   schema "accounts" do
-    field :balanced, :decimal
+    field :balance, :decimal
     belongs_to :user, User
 
     timestamps()
